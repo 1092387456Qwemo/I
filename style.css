@@ -10,7 +10,7 @@ body {
   
 }
 .Kartinka {
-  width= 200px;
+  width: 100%;
   border-radius: 5%;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 05);
 }
@@ -31,9 +31,9 @@ body {
     width: 80%;
 }
 .Zg {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
 }
 .Vsyo2 {
     max-width: 960px;
