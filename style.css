@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comforter&family=Great+Vibes&family=Marck+Script&display=swap');
+body {
+  background-color: #BFACAC;
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Bad Script', 'Comforter', 'Great Vibes', 'Marck Script', cursive;
+  
+  /* font: normal 16px 'Great Vibes', cursiv; */
+  
+}
+.Kartinka {
+  width= 200px;
+  border-radius: 5%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 05);
+}
+.Vs {
+  color: #888;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: normal;
+  background: #FFBA00;
+  border-radius: 5%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 05);
+}
+.Vsyo {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.Zg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.Vsyo2 {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.Vsyo3 {
+    max-width: 960px;
+    margin-left: auto;cc9500: auto;
+    margin-right: auto;
+    margin-top: 480px;
+    margin-bottom: 480px;
+    width: 80%;
+    background: #ffa500;
+    border-radius: 5%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 05);
+ h2 {
+    text-align: center;
+}
+.Vsyo3_1 {
+    max-width: 960px;
+    margin-left: auto;cc9500: auto;
+    margin-right: auto;
+    margin-top: 480px;
+    margin-bottom: 480px;
+    width: 80%;
+}
