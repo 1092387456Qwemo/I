@@ -19,7 +19,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-@media screen and (max-width: 760px) {.Vsyo {
+@media screen and (max-width: 10000px) {.Vsyo {
   text-align: center;
   display: block;
 }
