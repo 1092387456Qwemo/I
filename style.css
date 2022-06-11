@@ -231,25 +231,7 @@ a {
 }
 
 
-@media screen and (max-width: 1280px) {
- .text_box {
-  display:flex;
-  flex-direction: colum;
-  
-}
-.foto {
-  flex-grow: 1;
-  flex-shrink: 1;
-  
-}
-.text_2 {
-  padding: 30px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  
-;
-}
-}
+
 
 .text_box {
   display:flex;
@@ -282,6 +264,22 @@ a {
   font-style: italic;
 }
 
+@media screen and (max-width: 1280px) {
+ .text_box {
+  display: block;
+  
+  
+}
+.foto {
+  display: block;
+  
+}
+.text_2 {
+  padding: 30px;
+  display: block;
+;
+}
+}
 
 .content_box {
   background: #386;
