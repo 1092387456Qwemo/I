@@ -44,7 +44,8 @@ header {
 footer {
   
 }
-
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comforter&family=Great+Vibes&family=Marck+Script&display=swap');
@@ -59,15 +60,17 @@ footer {
 body {
   background-color: #eee;
   color: ;#000
-  font-size: 16px;
+  font-size: 48px;
   font-weight: normal;
   //*font-family: 'Bad Script', 'Comforter', 'Great Vibes', 'Marck Script', cursive;*/
 }
 
 header{
+    font-size: 72px;
+    font-weight: 600;
   display: grid;
   align-items: center;
-  height: 55px;
+  height: 150px;
   background: #fefefe;
   text-align: center;
   font-style: italic;
@@ -84,6 +87,7 @@ header{
   margin-left: 15%;
   position: relative;
   max-width: 70%;
+  font-size: 48px;
   max-height: ;
 }
 
@@ -91,6 +95,7 @@ header{
 .box_button{
   display: flex;
   justify-content: center;
+  
   margin: 100px;
 }
 
@@ -99,12 +104,15 @@ header{
   transition-duration: 3s;
   display: grid;
   align-items: center;
+  font-size: 48px;
   text-align: center;
   background: #094;
-  width: 150px;
-  height: 50px;
+  width: 450px;
+  height: 150px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #000;
+  font-weight: 900;
+  font-style: italic;
 }
 
 a {
@@ -138,8 +146,8 @@ a {
   position: fixed;
   top: 20px;
   left: 20px;
-  width: 26px;
-  height: 26px;
+  width: 100px;
+  height: 100px;
   cursor: pointer;
   z-index: 1;
 }
@@ -150,16 +158,16 @@ a {
   display: block;
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 10px;
   background-color: #616161;
 }
 .menu__btn > span::before {
   content: '';
-  top: -8px;
+  top: -28px;
 }
 .menu__btn > span::after {
   content: '';
-  top: 8px;
+  top: 28px;
 }
 
 
@@ -168,9 +176,9 @@ a {
   display: block;
   position: fixed;
   visibility: hidden;
-  top: 0;
+  top: 30px;
   left: -100%;
-  width: 300px;
+  width: 400px;
   height: 100%;
   margin: 0;
   padding: 80px 0;
@@ -182,10 +190,10 @@ a {
 
 .menu__item {
   display: block;
-  padding: 12px 24px;
+  padding: 30px 48px;
   color: #333;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 48px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -228,8 +236,21 @@ a {
 .zaholovoc {
   margin-top: 50px;
   margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: 900;
 }
 
+
+
+
+
+
+
+h2 {
+  font-weight: 700;
+  text-align: center;
+  
+}
 
 
 
@@ -239,7 +260,7 @@ a {
   flex-direction: column;
   margin: 2%;
   background: #fefefe;
-  font-size: 16px;
+  font-size: 48px;
   margin-bottom: 0px;
 }
 /
@@ -262,7 +283,7 @@ a {
 .text_3 {
   margin: 2%;
   background: #fefefe;
-  font-size: 16px;
+  font-size: 48px;
   border-radius: 10px;
   text-align: left;
   padding: 30px;
@@ -282,14 +303,14 @@ a {
 @media screen and (min-width: 1280px) {
  .content {
    flex-direction: row;
-  font-size: 16px;
+  font-size: 48px;
   flex-wrap: wrap;
   display: block;
 
  }
  .Bucva1:first-line {
   color: #094;
-  font-size: 32px;
+  font-size: 48px;
 }
 .foto_box{
   min-width: 100%;
@@ -308,13 +329,13 @@ a {
   background: ;
   display: grid;
   justify-content: center;
-  font-size: 32px;
+  font-size: 48px;
   border-radius: 10px;
 }
 
 .table {
   text-align: center;
-  font-size: 20px;
+  font-size: 36px;
   border: 3px solid grey;
   padding: 10px;
 }
@@ -324,7 +345,7 @@ th, td {
 }
 
 footer{
-  padding: 30px;
+  padding: 48px;
   z-index: -4;
   display: grid;
   align-items: center;
