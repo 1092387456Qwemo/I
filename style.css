@@ -308,10 +308,12 @@ h2 {
   display: block;
 
  }
- .Bucva1:first-line {
+ .Bucva1:first-letter{
+  font-size: 60px;
   color: #094;
-  font-size: 48px;
-}
+  display: inline;
+  padding: 5%;
+ }
 .foto_box{
   min-width: 100%;
 }
@@ -354,4 +356,38 @@ footer{
   text-align: center;
   font-style: italic;
   position: absolute;
+}
+
+.straniza3{
+  margin: 2%;
+  padding: 30px;
+  background: #fefefe;
+  background: ;
+  display: grid;
+  justify-content: center;
+  font-size: 48px;
+  border-radius: 10px;
+}
+
+.Shapca {
+  padding: 5%;
+}
+.Absatz {
+  padding: 5%
+}
+.Absatz_2 {
+  padding: 5%
+}
+
+.Absatz:first-letter{
+  font-size: 60px;
+  color: #094;
+  display: inline;
+  padding: 5%;
+}
+.Absatz_2:first-letter{
+  font-size: 60px;
+  color: #094;
+  display: inline;
+  padding: 5%;
 }
